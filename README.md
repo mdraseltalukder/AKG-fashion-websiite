@@ -1,6 +1,6 @@
 **
 
-## project name: Tesla Clone.
+## project name: AKG fashion.
 
 **
 **about info:**
