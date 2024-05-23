@@ -1,17 +1,17 @@
 **
 
-## project name: AKG fashion.
+## project name: Design  studio.
 
 **
 **about info:**
-this website is about AKG fashion 
+this website is about  Strategy & Design Studio
 
-[visit-website](https://akg-fashion-websiite.vercel.app/)
+[visit-website](https://design-fashion-five.vercel.app/)
 
 **tools i have used:**
 
- - html
- - css
+ - tailwind css
 
 snap: 
-https://github.com/mdraseltalukder/AKG-fashion-websiite/blob/main/screencapture-127-0-0-1-5500-2024-05-22-22_35_12.png
+
+![enter image description here](https://github.com/mdraseltalukder/AKG-fashion-websiite/blob/main/screencapture-127-0-0-1-5500-2024-05-22-22_35_12.png?raw=true)
