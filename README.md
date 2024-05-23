@@ -1,16 +1,17 @@
 **
 
-## project name: Design  studio.
+## project name: AKG fashion website.
 
 **
 **about info:**
-this website is about  Strategy & Design Studio
+this website is about  fashionable quality durable and best shoes for eveyone
 
-[visit-website](https://design-fashion-five.vercel.app/)
+[visit-website](https://akg-fashion-websiite.vercel.app/)
 
 **tools i have used:**
 
- - tailwind css
+ -  html 
+ - css
 
 snap: 
 
