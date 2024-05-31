@@ -9,7 +9,7 @@ html {
   --p-text: rgb(80, 76, 72);
   --bg-col: hsl(28, 100%, 95%);
   --icon-bg: rgb(246, 246, 248);
-  font-size: 0.625em;
+  font-size: 0.625rem;
 }
 
 .container {
@@ -95,7 +95,8 @@ button {
   position: relative;
 }
 button:hover {
-  transform: scale(0.95);
+  transform: scale(0.95) rotate(-1deg);
+
   /* transition: all 0.4s ease-out; */
 }
 
@@ -127,8 +128,9 @@ nav :last-child {
 
 nav a:hover {
   background-color: var(--bg-col);
-  transition: 0.5s;
-  transform: translateY(3px);
+  /* transition: 0.6s; */
+  transform: translateX(-3px);
+  transition: all 0.4s ease;
 }
 /* /header end  */
 
@@ -235,7 +237,7 @@ nav a:hover {
 .arrival-img {
   display: flex;
   gap: 20px;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .img-info {
@@ -355,7 +357,9 @@ nav a:hover {
   justify-content: space-between;
   margin-top: 50px;
   gap: 20px;
-  overflow: hidden;
+  overflow: scroll;
+  scrollbar-width: none;
+  padding: 50px;
 }
 .trending-img img {
   background-color: var(--icon-bg);
@@ -377,7 +381,10 @@ nav a:hover {
 }
 .simple-img {
   display: flex;
+  flex-direction: row;
   align-items: flex-end;
+  align-content: center;
+
   justify-content: space-between;
   gap: 20px;
 }
@@ -387,7 +394,7 @@ nav a:hover {
 .galary-sec {
   display: flex;
   justify-content: space-between;
-  overflow: hidden;
+  overflow: scroll;
   padding-bottom: 100px;
   margin-bottom: 100px;
   position: relative;
@@ -535,7 +542,6 @@ footer {
   }
   .simple-img {
     flex-wrap: wrap;
-    flex-direction: row;
   }
   /* .trending-img {
     margin-left: 20px;
@@ -599,34 +605,45 @@ footer {
     margin-bottom: 30px;
   }
   .simple-info {
+    margin-bottom: 10px;
+  }
+  .simple-info {
     margin-bottom: 40px;
   }
 
   nav {
     display: none;
   }
-
-  .header-sec {
-    position: relative;
-  }
-
-  /* nav a {
-    padding: 10px 150px;
-    border: none;
-  }
+  .
+  /* 
   nav {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 54px;
+    top: 66px;
     right: 0px;
     background-color: hsl(27, 100%, 91%);
-    visibility: hidden;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 9;
+    text-align: center;
+    display: none;
   }
-  
-  .header-img:hover nav {
-    visibility: visible;
+  nav a {
+    padding: 15px 0;
+    border: none;
+  }
+  .header-img :hover nav {
+    display: block;
+  }
+
+  .hero-sec {
+    z-index: -1;
   } */
+  .header-sec {
+    position: relative;
+  }
+
   .header-img {
     display: inline-block;
     position: absolute;
